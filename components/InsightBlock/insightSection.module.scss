@@ -1,21 +1,42 @@
-.clientBlock{
-  text-align: center;
-  padding-bottom: 40px;
-  background: url("/images/bg.png");
-  background-size: cover;
-  background-position: 0px 30px;
-  background-repeat: no-repeat;
-  padding-top: 40px;
-  h1{
+.mainInsight{
+  background: linear-gradient(100.76deg, #043E87 8.55%, #785EDA 76.17%);
+  border-radius: 10px;
+  height: 600px;
+  width: 100%;
+  display: block;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #ffffff;
+  overflow: hidden;
+  transform: translateY(-20px);
+  h2{
+    font-size: 46px;
+    font-weight: 200;
+  }
+  h4{
     font-size: 36px;
     font-weight: 200;
-    color: #fff;
+    padding-bottom: 30px;
+  }
+  .img{
+    img{
+      position: absolute;
+      width: 760px;
+      right: 0px;
+    }
+  }
+}
+
+.insightBlock{
+  padding: 40px;
+  border-radius: 20px;
+  border: 1px solid #043E87;
+  color: #ffffff;
+  h3{
+    padding-top: 30px;
+    font-weight: 200;
   }
   h5{
-    font-size: 24px;
-    font-weight: 200;
-    color: #ffffff;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    font-size: 14px;
   }
 }
