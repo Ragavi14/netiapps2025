@@ -5,6 +5,7 @@ import Clients from "../components/Clients/clients";
 import SolutionSection from "../components/SolutionSection/solutionSection";
 import CaseStudy from "../components/Casestudy/caseStudy";
 import ClientSpeakSection from "../components/Clientspeak/clientSpeakSection";
+import InsightSection from "../components/InsightBlock/insightSection";
 
 
 
@@ -17,6 +18,7 @@ export default function Home() {
             <SolutionSection/>
             <CaseStudy/>
             <ClientSpeakSection/>
+            <InsightSection/>
         </div>
     )
 }
