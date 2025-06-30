@@ -1,9 +1,22 @@
 import React from "react";
+import Navigation from "../components/Navigation/nav";
+import HeroBanner from "../components/HeroBanner/heroBanner"
+import Clients from "../components/Clients/clients";
+import SolutionSection from "../components/SolutionSection/solutionSection";
+import CaseStudy from "../components/Casestudy/caseStudy";
+import ClientSpeakSection from "../components/Clientspeak/clientSpeakSection";
+
+
 
 export default function Home() {
     return(
         <div>
-            <h2 className="container">Home</h2>
+            <Navigation/>
+            <HeroBanner/>
+            <Clients/>
+            <SolutionSection/>
+            <CaseStudy/>
+            <ClientSpeakSection/>
         </div>
     )
 }

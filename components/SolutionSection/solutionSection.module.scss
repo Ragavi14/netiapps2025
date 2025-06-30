@@ -1,0 +1,68 @@
+.solutionBlock{
+  position: relative;
+   h2 {
+     text-align: center;
+     color: #ffffff;
+     font-weight: 100;
+     font-size: 36px;
+     padding-top: 40px;
+     padding-bottom: 40px;
+   }
+
+  .scrollBlock{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-bottom: 32px;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(14, 49, 121, 0) rgba(0, 0, 0, 0);
+    scroll-behavior: smooth;
+
+  }
+
+  .track{
+    display: flex;
+    gap: 20px;
+  }
+
+  .card{
+    border: 1px solid #03193a;
+    border-radius: 22px;
+    background: linear-gradient(287.78deg, #192F61 14.37%, #48459E 81%);
+    background-color: #000e23;
+    height: 496px;
+    overflow: hidden;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(25% - 20px);
+    margin-bottom: 20px;
+    padding: 40px;
+    transition: all .5s ease-in-out;
+    width: 320px;
+    position: relative;
+    margin: 0px 15px;
+    &:nth-child(even){
+        transform: translateY(30px);
+    }
+
+    h3{
+      font-size: 32px;
+      color: #ffffff;
+      font-weight: 400;
+      white-space: normal;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+    }
+    img{
+      position: absolute;
+      transform: translateX(-110px) translateY(120px);
+      transition: 0.5s ease-in-out all;
+    }
+    &:hover{
+      img{
+        transform: translateX(-100px) translateY(110px);
+      }
+    }
+
+  }
+}

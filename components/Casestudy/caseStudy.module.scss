@@ -1,0 +1,51 @@
+.caseStudy{
+  padding-top: 60px;
+  padding-bottom: 40px;
+  h2{
+    color: #ffffff;
+    font-weight: 200;
+    padding-bottom: 40px;
+  }
+}
+
+.caseStudyBlock{
+  border-radius: 20px;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  img{
+    transform: translate(-209px, 30px);
+  }
+  h2{
+    font-size: 62px;
+  }
+  h3{
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 90px;
+  }
+  p{
+    color: #ffffff;
+  }
+  a{
+    background: #ffffff;
+    border: none;
+    color: #000000;
+    border-radius: 40px;
+    font-weight: 600;
+    padding: 10px 40px;
+  }
+}
+
+.case1{
+  background: linear-gradient(287.78deg, #192F61 14.37%, #48459E 81%);
+}
+.case2{
+  background: linear-gradient(121.05deg, #AA0108 10.43%, #FAD06C 85.07%);
+}
+.case3{
+  background: linear-gradient(287.78deg, #79DA5E 14.37%, #2D9710 81%);
+}
