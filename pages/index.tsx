@@ -6,6 +6,7 @@ import SolutionSection from "../components/SolutionSection/solutionSection";
 import CaseStudy from "../components/Casestudy/caseStudy";
 import ClientSpeakSection from "../components/Clientspeak/clientSpeakSection";
 import InsightSection from "../components/InsightBlock/insightSection";
+import FooterBlock from "../components/FooterBlock/footerBlock";
 
 
 
@@ -19,6 +20,7 @@ export default function Home() {
             <CaseStudy/>
             <ClientSpeakSection/>
             <InsightSection/>
+            <FooterBlock/>
         </div>
     )
 }
