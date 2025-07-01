@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@lottiefiles/dotlottie-react": "^0.14.2",
     "@popperjs/core": "^2.11.8",
+    "@splinetool/react-spline": "^4.0.0",
+    "@splinetool/runtime": "^1.10.18",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",

@@ -71,6 +71,9 @@ export default function SoftwareDevelopment() {
                             <div className={styles.leftPanel}>
                                 <h2>Software Development</h2>
                                 <p>Transform your business with innovative, tailored software development.</p>
+                                <div className={styles.moreBtn}>
+                                    <a className={`btn`} href={`/`}>Start Project  </a> <img src={`/images/more.svg`} />
+                                </div>
                             </div>
                         </nav>
                     </div>

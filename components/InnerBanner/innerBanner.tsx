@@ -1,6 +1,7 @@
 
 import { useEffect, useRef } from 'react';
 import styles from "./innerBanner.module.scss";
+
 export default function InnerBanner() {
 
     return (

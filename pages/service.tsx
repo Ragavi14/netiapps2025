@@ -6,6 +6,8 @@ import TwoText from "../components/Text/TwoText";
 import InnerBanner from "../components/InnerBanner/innerBanner";
 import InsightSection from "../components/InsightBlock/insightSection";
 import FooterBlock from "../components/FooterBlock/footerBlock";
+import TechnologyUsed from "../components/TechnologyUsed/technologyUsed";
+import RelatedSolutions from "../components/RelatedSolutions/relatedSolutions";
 
 
 export default function Home() {
@@ -17,6 +19,8 @@ export default function Home() {
                 <Text/>
                 <SoftwareDevelopment/>
             </div>
+            <TechnologyUsed/>
+            <RelatedSolutions/>
 
             <InsightSection/>
             <FooterBlock/>
