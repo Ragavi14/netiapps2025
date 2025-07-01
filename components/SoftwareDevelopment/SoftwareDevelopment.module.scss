@@ -1,7 +1,16 @@
 .softwareSection{
-    background: linear-gradient(to right, #020202, #001a3d);
     padding-top: 50px;
+  .leftPanel{
+    padding-top: 40px;
+    h2{
+      font-size: 70px;
+      font-weight: 100;
+    }
+    p{
+      font-size: 20px;
 
+    }
+  }
 .wrapper {
     color: white;
   
@@ -20,26 +29,17 @@
   }
   
   .cardList {
-    // background-color: rgba(255, 255, 255, 0.06);
-    // border: 1px solid rgba(255, 255, 255, 0.1);
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
     .card{
-        // width: 533px;
         height: 370px;
         border-radius: 40px;
-        // border: 1px solid rgba(255, 255, 255, 0.1);
-        // margin: 30px;
-        // text-align: center;
-
-        // background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-//   border-radius: 12px;
-  padding: 1.5rem;
-  width: 800px;
-  margin: 0 auto;
-  transition: 0.3s ease;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 1.5rem;
+        margin: 0 auto;
+        transition: 0.3s ease;
+        background: #091938;
 
   &:hover {
     background: rgba(255, 255, 255, 0.1);
@@ -62,14 +62,15 @@
             }
             h3{
                 font-size: 42px;
-                font-weight: 700;
                 width: 430px;
                 margin-left: 30px;
             }
         }
         p{
-            font-size: 14px;
-            margin-top: 50px;
+          font-size: 16px;
+          margin-top: 50px;
+          padding-left: 36px;
+
         }
     }
   }

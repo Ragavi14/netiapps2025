@@ -1,12 +1,18 @@
 .Text{
-    background: linear-gradient(#060A11, #284477);
-    padding-top: 50px 0px;
+    padding: 60px 0px;
     color: #fff;
     text-align: center;
-
     p{
-        margin-top: 80px;
-        width: 580px;
+        margin: auto;
+        width: 60%;
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    h2{
+        font-size: 50px;
+        font-weight: 100;
+        width: 70%;
+        margin: auto;
     }
 }
 

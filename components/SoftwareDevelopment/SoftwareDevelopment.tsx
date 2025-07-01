@@ -66,7 +66,7 @@ export default function SoftwareDevelopment() {
         <div className={styles.softwareSection}>
             <div className={`container ${styles.wrapper}`}>
                 <div className="row">
-                    <div className="col-md-4 position-sticky top-0" style={{ height: '100vh' }}>
+                    <div className="col-md-6 position-sticky top-0" style={{ height: '100vh' }}>
                         <nav id="scrollspyMenu" className="nav flex-column py-5">
                             <div className={styles.leftPanel}>
                                 <h2>Software Development</h2>
@@ -75,7 +75,7 @@ export default function SoftwareDevelopment() {
                         </nav>
                     </div>
         
-                    <div className="col-md-8 ">
+                    <div className="col-md-6">
                         <div className={styles.cardList}>
                             {services.map((service, index) => (
                                 <div key={index} className={styles.card}>
