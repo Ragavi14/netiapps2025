@@ -1,0 +1,54 @@
+.arrowBack{
+  color: #ffffff;
+  img{
+    transform: rotate(-135deg);
+    margin-right: 10px;
+  }
+}
+
+.careerContent{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ffffff;
+  h2{
+    padding-top: 40px;
+  }
+  p{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  h3{
+    padding-top: 20px;
+  }
+}
+
+.formBlock{
+  background: #000e23;
+  border: 1px solid #043E87;
+  border-radius: 20px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 430px #043e87;
+  padding: 40px;
+  p{
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  label{
+    color: #ffffff;
+  }
+  h4{
+    text-align: center;
+    color: #ffffff;
+  }
+  h3{
+      font-size: 22px;
+  }
+  .height100{
+    height: 100px;
+  }
+}
+
+
+

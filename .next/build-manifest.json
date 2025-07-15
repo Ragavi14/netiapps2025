@@ -28,6 +28,21 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/career": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/career.js"
+    ],
+    "/career-details": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/career-details.js"
+    ],
+    "/contact": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/contact.js"
+    ],
     "/service": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fontsource/manrope": "^5.2.6",
     "@lottiefiles/dotlottie-react": "^0.14.2",
     "@popperjs/core": "^2.11.8",
     "@splinetool/react-spline": "^4.0.0",

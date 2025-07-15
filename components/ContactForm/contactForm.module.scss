@@ -1,0 +1,50 @@
+.contactForm{
+  padding-top: 40px;
+  h3{
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+  }
+
+  h2{
+    text-align: center;
+    color: #ffffff;
+    font-size: 72px;
+    padding-bottom: 40px;
+    font-weight: 100;
+  }
+
+  .formBlock{
+    background: #000e23;
+    border: 1px solid #043E87;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 430px #043e87;
+    padding: 40px;
+    p{
+      text-align: center;
+      color: #ffffff;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+    }
+    label{
+      color: #ffffff;
+    }
+    h4{
+      text-align: center;
+      color: #ffffff;
+    }
+    .height100{
+      height: 100px;
+    }
+  }
+
+  .formBlock{
+    button{
+      padding: 10px;
+      font-size: 16px;
+      background: #043e87;
+    }
+  }
+}
